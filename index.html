@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Nascimento — Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- ===== NAVEGAÇÃO ===== -->
+    <header class="nav">
+      <div class="nav__container">
+        <a href="#sobre" class="nav__logo">gabnasci</a>
+        <nav class="nav__links">
+          <a href="#sobre"   class="nav__link">Sobre</a>
+          <a href="#projetos" class="nav__link">Projetos</a>
+          <a href="#contato" class="nav__link">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ===== HERO ===== -->
+      <section id="sobre" class="section hero">
+        <div class="section__container hero__container">
+          <span class="hero__eyebrow">Desenvolvedor Front-end &amp; UI</span>
+          <h1 class="hero__name">gabriel<br /><em>nascimento</em></h1>
+          <p class="hero__bio">
+            Transformo ideias em interfaces que as pessoas realmente gostam de usar.
+            Código limpo, atenção aos detalhes e um bocado de obsessão por tipografia.
+          </p>
+          <div class="hero__chips">
+            <span class="chip">React</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Figma</span>
+          </div>
+          <a href="#projetos" class="btn">Ver projetos</a>
+        </div>
+
+        <div class="hero__deco" aria-hidden="true">
+          <div class="deco__circle deco__circle--lg"></div>
+          <div class="deco__circle deco__circle--sm"></div>
+        </div>
+      </section>
+
+      <!-- ===== SOBRE MIM (detalhes) ===== -->
+      <section class="section about">
+        <div class="section__container about__grid">
+          <div class="about__text">
+            <span class="section__label">Sobre mim</span>
+            <h2 class="section__title">Construindo há<br />mais de 5 anos</h2>
+            <p class="about__paragraph">
+              Sou desenvolvedor full-stack baseado em São Paulo, com foco em
+              experiências de usuário rápidas e acessíveis. Comecei com HTML e CSS
+              puro (como todo mundo) e hoje trabalho com ecossistemas modernos de
+              JavaScript.
+            </p>
+            <p class="about__paragraph">
+              Quando não estou codando, estou lendo sobre design de sistemas,
+              tomando café filtrado ou tentando aprender japonês — com pouco sucesso.
+            </p>
+          </div>
+          <ul class="about__stats">
+            <li class="stat">
+              <span class="stat__number">+30</span>
+              <span class="stat__label">Projetos entregues</span>
+            </li>
+            <li class="stat">
+              <span class="stat__number">5</span>
+              <span class="stat__label">Anos de experiência</span>
+            </li>
+            <li class="stat">
+              <span class="stat__number">12</span>
+              <span class="stat__label">Clientes satisfeitos</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===== PROJETOS ===== -->
+      <section id="projetos" class="section projects">
+        <div class="section__container">
+          <span class="section__label">Projetos</span>
+          <h2 class="section__title">Trabalhos recentes</h2>
+
+          <div class="projects__grid">
+
+            <article class="card">
+              <div class="card__thumb card__thumb--blue"></div>
+              <div class="card__body">
+                <div class="card__meta">
+                  <span class="chip chip--sm">React</span>
+                  <span class="chip chip--sm">Node.js</span>
+                </div>
+                <h3 class="card__title">Fintrack</h3>
+                <p class="card__desc">
+                  Dashboard de controle financeiro pessoal com gráficos interativos,
+                  categorização automática e relatórios mensais em PDF.
+                </p>
+                <a href="#" class="card__link">Ver projeto →</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__thumb card__thumb--slate"></div>
+              <div class="card__body">
+                <div class="card__meta">
+                  <span class="chip chip--sm">Next.js</span>
+                  <span class="chip chip--sm">Prisma</span>
+                </div>
+                <h3 class="card__title">Shelf</h3>
+                <p class="card__desc">
+                  Plataforma de gestão de leituras: organize livros, anote citações
+                  favoritas e compartilhe resenhas com a comunidade.
+                </p>
+                <a href="#" class="card__link">Ver projeto →</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__thumb card__thumb--green"></div>
+              <div class="card__body">
+                <div class="card__meta">
+                  <span class="chip chip--sm">TypeScript</span>
+                  <span class="chip chip--sm">Tailwind</span>
+                </div>
+                <h3 class="card__title">Cronos</h3>
+                <p class="card__desc">
+                  Ferramenta de time tracking para freelancers com timer Pomodoro,
+                  exportação para planilhas e controle de clientes.
+                </p>
+                <a href="#" class="card__link">Ver projeto →</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTATO ===== -->
+      <section id="contato" class="section contact">
+        <div class="section__container contact__grid">
+
+          <div class="contact__info">
+            <span class="section__label">Contato</span>
+            <h2 class="section__title">Vamos trabalhar<br />juntos?</h2>
+            <p class="contact__text">
+              Estou aberto a projetos freelance, posições full-time e
+              conversas sobre design &amp; tecnologia.
+            </p>
+            <ul class="contact__links">
+              <li>
+                <a href="mailto:gabnasci@exemplo.com" class="contact__social">
+                  gabnasci@exemplo.com
+                </a>
+              </li>
+              <li>
+                <a href="#" class="contact__social">GitHub</a>
+              </li>
+              <li>
+                <a href="#" class="contact__social">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- FORMULÁRIO -->
+          <div class="contact__form-wrapper">
+            <form class="form" action="#" method="post" novalidate>
+              <div class="form__group">
+                <label class="form__label" for="nome">Nome</label>
+                <input
+                  class="form__input"
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Seu nome"
+                  required
+                />
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="email">E-mail</label>
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  required
+                />
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="assunto">Assunto</label>
+                <input
+                  class="form__input"
+                  type="text"
+                  id="assunto"
+                  name="assunto"
+                  placeholder="Sobre o que você quer falar?"
+                />
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="mensagem">Mensagem</label>
+                <textarea
+                  class="form__input form__textarea"
+                  id="mensagem"
+                  name="mensagem"
+                  rows="5"
+                  placeholder="Conta mais sobre seu projeto..."
+                  required
+                ></textarea>
+              </div>
+
+              <button class="btn btn--full" type="submit">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer class="footer">
+      <div class="footer__container">
+        <span class="footer__copy">© 2025 Gabriel Nascimento</span>
+        <span class="footer__made">Feito com HTML &amp; CSS puro</span>
+      </div>
+    </footer>
+
+  </body>
+</html>
